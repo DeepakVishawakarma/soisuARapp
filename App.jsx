@@ -172,12 +172,10 @@ export default () => {
         <Text style={{ fontSize: 20, fontWeight:'bold', marginTop:10, marginLeft:10 }}>Product List</Text>
         <View style={{ height: 600 }}>
         <WebView
-          style={{ flex: 1 }}
+          style={{ height: 400 }}
           source={{
-            uri: "https://mimnsi.github.io/interactive_scenes_3d_6/demo/assets/data/SOISU/JFS25B.html",
+            uri: "https://DeepakVishawakarma.github.io/soisuWebApp",
           }}
-          // renderLoading={loadingIndicatorView}
-          // renderError={loadError}
         />
         </View>
         <Text style={{ fontSize: 20, fontWeight:'bold',marginTop:20,marginLeft:10 }}>Details</Text>
